@@ -4,7 +4,7 @@ html,body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    overflow-y: hidden; 
+    //overflow-y: hidden; 
 }
 
 *{
@@ -74,8 +74,8 @@ a {
 }
 
 #banner-color{
-    height: 20vh;
-    position:absolute;
+    height: 19vh;
+    position: fixed;
     display: flex;
     top:70px;
     left:0;
@@ -88,13 +88,13 @@ a {
 }
 
  #banner-text {
-    background-color: #2c707c;
+    background-color: #ffe066;
     width: 261px;
-    border: 10px inset lightblue;
+    border: 10px inset black;
     padding: 10px;
     margin: 0;
-    font-family:'Lato', sans-serif;
-    color: white;
+    font-family: 'Raleway', sans-serif;
+    color: black;
     z-index: 2;
 }
 
@@ -110,13 +110,24 @@ a {
     position: relative;
     display: flex;
     left: 10vw;
-    bottom: 12vh;
+    bottom: 8vh;
+    z-index: 0;
+}
+
+#otherpicture {
+    position: relative;
+    display: flex;
+    left: 10vw;
+    bottom: 11vh;
     z-index: 0;
 }
 
 #lino {
     width: 411px;
     height: 576px;
+    border: 10px solid grey;
+    padding: 0;
+    margin: 0;
 }
 
 #feature-color {
@@ -151,7 +162,7 @@ a {
     width: 500px;
     height: 300px;
     border: 5px inset lightblue;
-    font-family:'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 17px;
     color: black;
     z-index: 2;
@@ -174,8 +185,8 @@ a {
 
 
 #feature-text {
-    color: white;
-    font-family:'Lato', sans-serif;
+    color: blue;
+    font-family: 'Raleway', sans-serif;
     z-index: 2;
 }
 
