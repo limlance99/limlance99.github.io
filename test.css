@@ -1,0 +1,181 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    width: 100vw;
+    
+        
+}
+
+header > h1 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+span {
+   color:#fff2e6;
+
+}
+
+ul{
+    margin-right:40px;
+}
+
+li {
+    display:inline; 
+    padding: 5px;
+    margin-right: 5px;
+
+}
+
+a:hover {
+    color:white;
+   
+}
+
+a {
+    text-decoration: none;
+    color:#fff2e6;
+    font-family:'Lato', sans-serif;
+    font-size: 16px;   
+    
+}
+
+#picture {
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url(Images/krat.jpg);
+    background-attachment: fixed;
+    background-position: right;   
+}
+#banner {
+    height: 20vh;
+    width: 100vw;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#banner-color{
+    height: 20vh;
+    position:absolute;
+    display: flex;
+    top:70px;
+    left:0;
+    width: 100vw;
+    background-color: #fff2e6;
+    z-index: 1;
+    opacity: 0.75;
+    margin: 0; 
+    border: 5px solid black;
+}
+
+ #banner-text {
+    background-color: #2c707c;
+    width: 261px;
+    border: 10px inset lightblue;
+    padding: 10px;
+    margin: 0;
+    font-family:'Lato', sans-serif;
+    color: white;
+    z-index: 2;
+}
+
+#core-features {
+    height: 100vh;
+    width: 100vw;
+    overflow:hidden;
+    display: flex;
+    align-items: center; 
+}
+
+#owlpicture {
+    position: relative;
+    display: flex;
+    left: 10vw;
+    bottom: 12vh;
+    z-index: 0;
+}
+
+#lino {
+    width: 411px;
+    height: 576px;
+}
+
+#feature-color {
+    height: 68vh;
+    position:absolute;
+    display: flex;
+    top:220px;
+    left:0;
+    width: 100vw;
+    background-color: azure;
+    z-index: 0;
+    opacity: 0.50;
+    margin: 0; 
+    border: 5px solid black;
+}
+
+#feature-title {
+    color:  #fff2e6;
+    font-family: 'Lato', sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
+#features {
+    height: 80vh;
+    position:absolute;
+    top: 35vh;
+    left: 50vw; 
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    border: 5px inset lightblue;
+    font-family:'Lato', sans-serif;
+    font-size: 17px;
+    color: black;
+    z-index: 2;
+}
+
+#bluestuff {
+    height: 80vh;
+    position:absolute;
+    top: 35vh;
+    left: 50vw; 
+    background-color: #fff2e6;
+    border-radius: 25px;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+    border: 5px inset lightblue;
+    opacity: 0.75;
+    z-index: 1;
+}
+
+
+#feature-text {
+    color: white;
+    font-family:'Lato', sans-serif;
+    z-index: 2;
+}
+
