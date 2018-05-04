@@ -13,7 +13,7 @@ html,body {
 }
 
 header {
-    background-color:black;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -54,7 +54,7 @@ a:hover {
 a {
     text-decoration: none;
     color:#fff2e6;
-    font-family:'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;   
     
 }
@@ -98,7 +98,7 @@ a {
     z-index: 2;
 }
 
-#core-features {
+#core {
     height: 100vh;
     width: 100vw;
     overflow:hidden;
@@ -106,7 +106,8 @@ a {
     align-items: center; 
 }
 
-#owlpicture {
+
+#mypicture {
     position: relative;
     display: flex;
     left: 8vw;
@@ -114,15 +115,7 @@ a {
     z-index: 0;
 }
 
-#otherpicture {
-    position: relative;
-    display: flex;
-    left: 8vw;
-    bottom: 11vh;
-    z-index: 0;
-}
-
-#lino {
+#me {
     width: 411px;
     height: 576px;
     border: 10px solid grey;
@@ -143,14 +136,6 @@ a {
     margin: 0; 
     border: 5px solid black;
 }
-
-#feature-title {
-    color:  #fff2e6;
-    font-family: 'Lato', sans-serif;
-    margin-left: 20px;
-    font-size: 25px;
-}
-
 
 #features {
     height: 80vh;
@@ -183,10 +168,8 @@ a {
     z-index: 1;
 }
 
-
 #feature-text {
-    color: blue;
+    color: grey;
     font-family: 'Raleway', sans-serif;
     z-index: 2;
 }
-
