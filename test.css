@@ -88,7 +88,7 @@ a {
 }
 
  #banner-text {
-    background-color: #ffe066;
+    background-color: grey;
     width: 261px;
     border: 10px inset black;
     padding: 10px;
@@ -109,7 +109,7 @@ a {
 #owlpicture {
     position: relative;
     display: flex;
-    left: 10vw;
+    left: 8vw;
     bottom: 8vh;
     z-index: 0;
 }
@@ -117,7 +117,7 @@ a {
 #otherpicture {
     position: relative;
     display: flex;
-    left: 10vw;
+    left: 8vw;
     bottom: 11vh;
     z-index: 0;
 }
