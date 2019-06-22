@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>All my posts and stuff. on Lance Lim</title>
-    <link>https://lanceblim.com/blog/</link>
+    <link>https://limlance99.github.io/blog/</link>
     <description>Recent content in All my posts and stuff. on Lance Lim</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
     
-	<atom:link href="https://lanceblim.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://limlance99.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>I have a website?</title>
-      <link>https://lanceblim.com/blog/i-have-a-website/</link>
+      <link>https://limlance99.github.io/blog/i-have-a-website/</link>
       <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://lanceblim.com/blog/i-have-a-website/</guid>
+      <guid>https://limlance99.github.io/blog/i-have-a-website/</guid>
       <description>Yes, yes I do.</description>
     </item>
     
